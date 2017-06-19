@@ -1,9 +1,8 @@
 @charset "utf-8";
 
 @import "normalize-rails";
+@import "materialize";
 
-@import "bourbon";
-@import "neat";
-
+@import "shared/variables";
+@import "shared/typography";
 @import "base/base";
-@import "refills/flashes";

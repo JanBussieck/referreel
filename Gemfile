@@ -24,6 +24,8 @@ gem "uglifier"
 
 # Javascript
 gem 'webpacker', '~> 2.0'
+gem 'materialize-sass'
+gem 'haml'
 
 group :development do
   gem "listen"
