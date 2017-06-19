@@ -1,6 +1,8 @@
-%nav.blue.lighten-1
+%nav.blue.lighten-1.nav__main
   .nav-wrapper.container
-    = link_to "LOGO", "#", class: 'brand-logo'
+    .referreel_logo
+      = image_tag 'reel_top_inverted.png', class: 'referreel_logo__top'
+      = image_tag 'reel_bottom_inverted.png', class: 'referreel_logo__bottom'
     %ul.right.hide-on-med-and-down
       %li= 'Pricing'
     %ul#nav-mobile.side-nav
