@@ -3,17 +3,17 @@
     = link_to "LOGO", "#", class: 'brand-logo'
     %ul.right.hide-on-med-and-down
       %li= 'Pricing'
-    %ul.nav-mobile.side-nav
+    %ul#nav-mobile.side-nav
       %li= 'Navbar'
     = link_to '#', class: 'button-collapse', data: { activates: 'nav-mobile' } do
-      %i.material-icons
+      %i.material-icons= 'menu'
 .section.no-pad-bot
   .container
     %h1.header.center.orange-text
       Supercharge Your Referral Campagn
     .row.center
       %h5.header.col.s12.light
-        A modern responsive front-end framework based on Material Design
+        Finally, a simple, affordable, referral program for SaaS companies
     .row.center
       = link_to "Get Started", '#', class: "btn-large waves-effect waves-light orange"
 %footer.page-footer.orange
